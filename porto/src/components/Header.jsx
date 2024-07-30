@@ -6,7 +6,7 @@ export default function Header() {
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            Navbar
+            Aashish Dahale
           </a>
           <button
             class="navbar-toggler"
@@ -27,21 +27,34 @@ export default function Header() {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">
-                  Disabled
+                <a class="nav-link active" aria-current="page" href="#">
+                  About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Skills
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="public\Resume.pdf"
+                >
+                  Resume
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Projects
                 </a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+            <form class="d-flex">
+              <a class="nav-link active" aria-current="page" href="#">
+                Contact me
+              </a>
             </form>
           </div>
         </div>
